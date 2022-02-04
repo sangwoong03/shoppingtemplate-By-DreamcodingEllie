@@ -1,0 +1,90 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+
+  /* size */
+  --size-logo: 100px;
+  --size-btn: 50px;
+  --size-image: 50px;
+  --size-font: 18px;
+  --size-marginR: 15px;
+  --size-padding: 10px;
+
+  /* animation */
+  --time-animation: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh; /* 뷰포트의 100% */
+  background: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: var(--size-logo);
+  height: var(--size-logo);
+  cursor: pointer;
+  transition: var(--time-animation);
+}
+.logo:hover,
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btnGroup{
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-right: var(--size-marginR);
+  cursor: pointer;
+  transition: var(--time-animation);
+}
+.imgBtn {
+  width: var(--size-btn);
+  height: var(--size-btn);
+}
+.textBtn {
+  font-size: var(--size-font);
+  padding: var(--size-padding);
+}
+.blue {
+  background: var(--color-blue);
+}
+.yellow {
+  background: var(--color-yellow);
+}
+.pink {
+  background: var(--color-pink);
+}
+
+.list {
+  width: 60%;
+  list-style: none;
+  background: var(--color-white);
+  padding-left: 0;
+  overflow: scroll;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+.imgItem {
+  width: var(--size-image);
+  margin-right: var(--size-marginR);
+}

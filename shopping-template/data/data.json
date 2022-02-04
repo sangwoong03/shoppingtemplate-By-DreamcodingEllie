@@ -1,0 +1,115 @@
+{
+    "list": [
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "large",
+            "color": "yellow"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "pink"
+        },
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "large",
+            "color": "pink"
+        },
+        
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "large",
+            "color": "yellow"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "pink"
+        },
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "large",
+            "color": "blue"
+        },
+        
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "large",
+            "color": "yellow"
+        },
+        {
+            "type": "tshirt",
+            "gender": "female",
+            "size": "small",
+            "color": "blue"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "small",
+            "color": "pink"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "large",
+            "color": "blue"
+        },
+        {
+            "type": "skirt",
+            "gender": "female",
+            "size": "small",
+            "color": "yellow"
+        },
+        
+        {
+            "type": "pants",
+            "gender": "female",
+            "size": "small",
+            "color": "pink"
+        },
+        {
+            "type": "skirt",
+            "gender": "male",
+            "size": "large",
+            "color": "blue"
+        },
+        {
+            "type": "tshirt",
+            "gender": "male",
+            "size": "small",
+            "color": "blue"
+        },
+        {
+            "type": "skirt",
+            "gender": "male",
+            "size": "large",
+            "color": "yellow"
+        },
+        {
+            "type": "skirt",
+            "gender": "male",
+            "size": "large",
+            "color": "pink"
+        },
+        {
+            "type": "pants",
+            "gender": "male",
+            "size": "large",
+            "color": "blue"
+        }
+    ]
+}
