@@ -22,7 +22,9 @@
 * {
   box-sizing: border-box;
 }
-
+.invisible {
+  visibility: hidden;
+}
 body {
   height: 100vh; /* 뷰포트의 100% */
   background: var(--color-black);
