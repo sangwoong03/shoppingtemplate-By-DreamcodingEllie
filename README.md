@@ -128,7 +128,7 @@ __-프로그래밍 언어나 플랫폼에 상관 없이 사용할 수 있다는 
     }
 
     // JSON to Object
-    json = JSON.stringyfi(cat);
+    json = JSON.stringify(cat);
     const obj = JSON.parse(json);
     console.log(obj) // {name: "야옹이", age: 3, size: null, adopt: false} 출력
 ```
